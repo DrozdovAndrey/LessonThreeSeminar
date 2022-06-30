@@ -17,7 +17,7 @@ namespace HelloWorld
                 if (x < 0 && y > 0) Console.WriteLine("номер четверти 2");
                 if (x < 0 && y < 0) Console.WriteLine("номер четверти 3");
                 if (x > 0 && y < 0) Console.WriteLine("номер четверти 4");
-                if (x == 0 && y == 0) Console.WriteLine("вы находитесь посредине");
+                if (x == 0 || y == 0) Console.WriteLine("нет такой четверти");
             }
             catch
             {
